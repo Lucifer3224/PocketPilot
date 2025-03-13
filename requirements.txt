@@ -9,5 +9,5 @@ scikit-learn
 folium
 holidays
 joblib
-pickle
+pickle-mixin
 gunicorn
