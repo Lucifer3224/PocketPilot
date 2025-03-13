@@ -16,7 +16,7 @@ PocketPilot is your **personal travel cost guru!** 🚖✨ This **Django-powered
 ## 🛠 Tech Ingredients  
 - **Backend:** Django Framework 🍃  
 - **ML Goodies:** Scikit-Learn, Pandas, NumPy 🤖  
-- **Frontend:** HTML, CSS, Bootstrap 🎨  
+- **Frontend:** HTML, CSS, JavaScript 🎨  
 - **Deployment Ready?** Yes! AWS/GCP compatible 🚀  
 
 ## 🗂 Project Roadmap  
