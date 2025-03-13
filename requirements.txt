@@ -1,0 +1,13 @@
+Django
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+statsmodels
+scikit-learn
+folium
+holidays
+joblib
+pickle
+gunicorn
