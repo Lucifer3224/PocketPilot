@@ -28,9 +28,12 @@ PocketPilot is your **personal travel cost guru!** 🚖✨ This **Django-powered
 │  │  ├─ settings.py
 │  │  ├─ urls.py
 │  │  ├─ wsgi.py
+│  │  ├─ __init__.py
 │  └─ PocketPilot
 │     ├─ admin.py
 │     ├─ apps.py
+│     ├─ migrations
+│     │  ├─ __init__.py
 │     ├─ ml_models
 │     │  ├─ preprocessor.pkl
 │     │  └─ random_forest_model.pkl
@@ -42,6 +45,7 @@ PocketPilot is your **personal travel cost guru!** 🚖✨ This **Django-powered
 │     ├─ tests.py
 │     ├─ urls.py
 │     ├─ views.py
+│     ├─ __init__.py
 ├─ Preprocessing_And_Model_Training.ipynb
 └─ requirements.txt
 ```
@@ -63,6 +67,7 @@ pip install -r requirements.txt
 ```
 ### **4️⃣ Fire Up the Engine!**  
 ```bash
+python manage.py migrate
 python manage.py runserver
 ```
 🌍 **Visit:** http://127.0.0.1:8000/ and let the fare magic begin! 🎩✨
